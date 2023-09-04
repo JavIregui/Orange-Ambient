@@ -1,7 +1,7 @@
 # Smooth
 Smooth Website
 
-## Briefing
+### Briefing
 
 We are a company that researches new ways to share your videos by combining artificial intelligence with ease of use. 
 Our main product is an app that you can use offline and implements our cloud technology. Our target audience is women.
