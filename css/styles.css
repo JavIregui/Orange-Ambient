@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-primary: #80b229;
+    --color-secondary: #f18536;
+    --color-background: #f0f0f0;
+    --color-text: #333;
+}
+
+body {
+    font-family: 'Encode Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0 10vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#title {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+#title h1 {
+    font-weight: 800;
+    transition: transform 0.3s ease, margin-left 0.3s ease;
+}
+#title img {
+    height: 10vh;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+}
+#title:hover img {
+    transform: scale(1.2);
+}
+#title:hover h1 {
+    transform: translateX(10px);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 100px;
+    letter-spacing: 2px;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    position: relative;
+}
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: var(--color-secondary);
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+nav a:hover::after {
+    width: 100%;
+}
+
+section {
+    padding: 20px;
+}
