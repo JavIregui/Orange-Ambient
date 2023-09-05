@@ -77,9 +77,26 @@ nav a:hover::after {
     width: 100%;
 }
 
-section {
-    padding: 20px;
-    height: 50vh;
+#landing {
+    height: 90vh;
+    background-image: url("../resources/img/bikes/bgBike.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-blend-mode:multiply;
+    background-color: #33333383;
+}
+
+#bikes {
+    height: 65vh;
+}
+
+#contact {
+    height: 40vh;
+    background-color: var(--color-primary);
+}
+
+#values {
+    height: 75vh;
 }
 
 footer {
@@ -102,7 +119,7 @@ footer {
     transition: all 0.3s ease;
 }
 #info p a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 #social {
     margin-top: -5vh;
@@ -132,7 +149,7 @@ footer {
     transition: all 0.3s ease;
 }
 #links a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 #legal {
     background-color: white;

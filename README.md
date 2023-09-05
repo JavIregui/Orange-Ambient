@@ -13,3 +13,8 @@ should have a Our Values section. There should be a call to action to get users
 to call for more information. They would prefer a trendy design, and would like 
 you to use the brand color, which is green. Take into account the client's
 preferences and values.
+
+### Pictures
+This proyect represents the website of a fictional company.
+The images for the bikes were collected from www.vanmoof.com
+and show the products of the company VanMoof.
