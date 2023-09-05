@@ -7,6 +7,10 @@
     --color-text: #333;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Encode Sans', sans-serif;
     margin: 0;
@@ -60,7 +64,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
-    font-weight: 800;
+    font-weight: 500;
     position: relative;
 }
 nav a::after {
@@ -84,14 +88,56 @@ nav a:hover::after {
     background-position: top center;
     background-blend-mode:multiply;
     background-color: #33333383;
+
+    position: relative;
+    overflow: hidden;
+}
+#landing h2 {
+    color: var(--color-background);
+    font-size: 5vw;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    margin-top: 12vh;
+    margin-bottom: -12vh;
+    margin-left: 15vw;
+
+    transition: all 0.3s ease;
+}
+#landing h2:hover {
+    letter-spacing: 8px;
+}
+#landing a {
+    font-size: 3vw;
+    color: var(--color-background);
+    transition: all 0.3s ease;
+    animation: bounce 2.5s infinite;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    margin-bottom: 50px;
+}
+@keyframes bounce {
+    0%, 40%, 60%, 100% {
+        padding-bottom: 0;
+    }
+    50% {
+        padding-bottom: 10px;
+    }
+}
+#landing a:hover {
+    color: var(--color-secondary);
 }
 
+
 #bikes {
-    height: 65vh;
+    height: 60vh;
 }
 
 #contact {
-    height: 40vh;
+    height: 35vh;
     background-color: var(--color-primary);
 }
 
