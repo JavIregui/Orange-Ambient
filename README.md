@@ -18,3 +18,7 @@ preferences and values.
 This proyect represents the website of a fictional company.
 The images for the bikes were collected from www.vanmoof.com
 and show the products of the company VanMoof.
+
+### Specs
+- Basic HTML/CSS/JS website
+- Not fully responsive
