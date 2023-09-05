@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const landingLink = document.querySelector('#landing a');
     const goUp = document.querySelector('#goUp');
+    const contactLink = document.getElementById('contactLink');
+    const contact  = document.getElementById('contact');
     goUp.style.display = 'none';
 
     if (landingLink) {
@@ -32,6 +34,16 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 goUp.style.display = 'block';
             }
+        });
+    }
+
+    if(contactLink && contact){
+        contactLink.addEventListener('click', function(e){
+            e.preventDefault();
+
+            contact.scrollIntoView({
+            behavior: 'smooth',
+            });
         });
     }
 });

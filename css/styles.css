@@ -267,7 +267,7 @@ nav a:hover::after {
 }
 #valuesR > p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     width: 40vw;
     text-align: justify;
 }
@@ -284,7 +284,7 @@ nav a:hover::after {
 .value p {
     width: 15vw;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 .value i{
