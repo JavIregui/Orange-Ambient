@@ -79,4 +79,72 @@ nav a:hover::after {
 
 section {
     padding: 20px;
+    height: 50vh;
+}
+
+footer {
+    background-color: var(--color-text);
+    color: var(--color-background);
+}
+#foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 10vw;
+}
+#info {
+    width: 25vw;
+    padding-left: 10vw;
+}
+#info p a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+#info p a:hover {
+    color: var(--color-primary);
+}
+#social {
+    margin-top: -5vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#social img {
+    width: 20%;
+    margin-bottom: -50px; 
+}
+#social p {
+    font-size: 28px;
+    font-weight: 800;
+}
+#links {
+    display: flex;
+    justify-content: center;
+}
+#links a {
+    text-decoration: none;
+    color: var(--color-background);
+    font-size: 24px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+#links a:hover {
+    color: var(--color-primary);
+}
+#legal {
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+#legal a {
+    color: gray;
+    font-size: 12px;
 }
