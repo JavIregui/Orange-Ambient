@@ -3,7 +3,7 @@ Orange Ambient Website
 
 ### Brief
 We are a company that makes long-lasting bicycle with an emphasis on sustainability.
-Our target audience is seniors. We want to convey a sense of security, while at the
+We want to convey a sense of security, while at the
 same time being down-to-earth.
 
 You must create a website that will mainly make it easy to contact the company.
