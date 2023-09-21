@@ -1,7 +1,7 @@
 # Orange Ammbient
 Orange Ambient Website
 
-### Briefing
+### Brief
 We are a company that makes long-lasting bycicle with an emphasis on sustainabilty.
 Our target audience is seniors. We want to convey a sense of security, while at the
 same time being down-to-earth.
