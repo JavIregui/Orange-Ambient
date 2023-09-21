@@ -2,11 +2,11 @@
 Orange Ambient Website
 
 ### Brief
-We are a company that makes long-lasting bycicle with an emphasis on sustainabilty.
+We are a company that makes long-lasting bicycle with an emphasis on sustainability.
 Our target audience is seniors. We want to convey a sense of security, while at the
 same time being down-to-earth.
 
-You must create a website that will mainly make it easv to contact the compan.
+You must create a website that will mainly make it easy to contact the company.
 The goal is to emphasize the brand's values. Besides the landing page, the 
 website will need a information page, shop page and a blog. The landing page 
 should have a Our Values section. There should be a call to action to get users
