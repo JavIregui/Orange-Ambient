@@ -21,4 +21,4 @@ and show the products of the company VanMoof.
 
 ### Specs
 - Basic HTML/CSS/JS website
-- Not fully responsive
+- Not fully responsive yet
